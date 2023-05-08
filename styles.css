@@ -1,0 +1,289 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+	body {
+	background-color: #121212;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 296px;
+	background-color: #F4F7FF;
+	padding: 24px;
+}
+
+
+.sidebar .logo img{
+	width: 220px;
+}
+
+.sidebar .navigation ul {
+	list-style: none;
+	margin-top: 30px;
+
+}
+
+.sidebar .navigation ul li {
+	padding: 12px 0px;
+}
+
+.sidebar .navigation ul li a{
+	color: #262626;
+	text-decoration: none ;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+	transition: all 0.3s ease 0s;
+	color: #0045FF;
+
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa
+.sidebar .navigation ul li a:focus  .fa {
+	color: #262626;
+}
+
+
+.sidebar .navigation ul li .fa {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+
+
+
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:active .fa:active
+.sidebar .navigation ul li a:focus  .fa:focus {
+	transition: all 0.3s ease 0s;
+	color: #0045FF;
+}
+
+.sidebar .policies {
+	position: absolute;
+	bottom: 100px;
+
+}
+
+.sidebar .policies ul{
+	list-style: none;
+
+}	
+
+.sidebar .policies ul li{
+	padding-bottom: 5px;
+
+}	
+
+.sidebar .policies ul li a{
+	color: #262626;
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+	text-decoration: none;
+}
+
+.main-container {
+	margin-left: 245px;
+	margin-bottom: 100px;
+}
+
+.topbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #101010;
+	padding: 14px 130px;
+
+}
+
+.topbar .prev-next-buttons button {
+	color: #7a7a7a;
+	cursor: pointer;
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
+	font-size: 18px;
+	border: 0px;
+	background-color: #090909;
+	margin-right: 10px;
+	
+
+}
+
+.topbar .navbar {
+	display: flex;
+	align-items: center;
+
+}
+
+.topbar .navbar ul {
+	list-style: none;
+
+}
+
+.topbar .navbar ul li {
+	display: inline-block;
+	margin: 0px 8px;
+	width: 70px;
+}
+
+.topbar .navbar ul li a{
+	color: #b3b3b3;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.topbar .navbar ul li.divider {
+	color: #ffffff;
+	font-size: 26px;
+	margin: 0px 20px;
+	width: auto;
+}
+
+.topbar .navbar button {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 30px;
+	border: 0px;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+	background-color: #f2f2f2;
+}
+
+
+
+.chart-top {
+  padding: 40px 135px;
+}
+.chart-top h2 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.chart-top .list {
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.chart-top .list .item {
+  min-width: 140px;
+  width: 170px;
+  padding: 15px;
+  background-color: #181818;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+
+}
+
+.chart-top .list .item:hover {
+  background-color: #252525;
+}
+.chart-top .list .item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.chart-top .list .item .like {
+	position: relative;
+	color: #ffffff;
+}
+
+
+.chart-top .list .item .like .fa{
+	position: absolute;
+  	left: -2px;
+  	top: -185px;
+  	padding: 12px;
+
+}
+
+
+.item:hover .like .fa {
+  color: #0045FF;
+  transition: all ease 0.4s;
+  width: ;
+  }
+
+
+.chart-top .list .item .play {
+  position: relative;
+}
+.chart-top .list .item .play .fa {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  padding: 18px;
+  background-color: #0045FF;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+.chart-top .list .item:hover .play .fa {
+  opacity: 1;
+  transform: translateY(-20px)
+  }
+
+.chart-top .list .item h4 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.chart-top .list .item p {
+  color: #989898;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.chart-top.list .item .play {
+  position: relative;
+}
+
+
+

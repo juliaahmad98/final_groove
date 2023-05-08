@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+	body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    padding: 40px 135px;
+}
+
+.chart-top h2 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+
+.chart-top .card {
+	display: grid;
+  	gap: 20px;
+  	overflow: hidden;
+}
+
+
+.chart-top .card .image {
+  min-width: 140px;
+  width: 170px;
+  padding: 15px;
+  background-color: #181818;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+
+}
+
+
+.chart-top .card .image:hover {
+  background-color: #252525;
+}
+.chart-top .card .image img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+  }

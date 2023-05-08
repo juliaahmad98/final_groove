@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#upload_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.form-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  width: 100%;
+}
+
+
+.inputbox {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.inputbox input,
+.inputbox select {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background: transparent;
+}
+
+
+.form-select {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('https://cdn.icon-icons.com/icons2/2108/PNG/512/down_arrow_icon_130932.png') no-repeat;
+  background-size: 10%;
+  background-position-x: 98%;
+  background-position-y: center;
+}
+
+
+input[type="submit"] {
+  background-color: #292929;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.upload-btn {
+  background-color: #292929;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #444;
+}
+
